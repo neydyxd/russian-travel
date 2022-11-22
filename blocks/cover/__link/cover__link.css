@@ -1,0 +1,9 @@
+.cover__link{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.cover__link:visited{
+    text-decoration: none;
+    color: white;
+}
