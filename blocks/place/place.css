@@ -2,7 +2,9 @@
     display: grid;
     margin-bottom: 80px;
 }
-
+.place:last-child{
+    margin-bottom: 0;
+}
 @media screen and (min-width:1280px) {
     .place{
         grid-template-columns: repeat(2,1fr);
@@ -21,7 +23,7 @@
 @media screen and (min-width:768px) and (max-width:1023px){
     .place{
         gap: 48px 28px;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,minmax(356px,1fr));
         margin-bottom: 73px;
     }
 }
@@ -33,6 +35,3 @@
     }
 }
 
-.place:last-child{
-    margin-bottom: 0;
-}
